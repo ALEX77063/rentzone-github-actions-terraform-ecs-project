@@ -22,8 +22,8 @@ database_instance_class      = "db.t3.medium"
 publicly_accessible          = "false"
 
 # acm variables
-domain_name       = "alexander77.co.uk"
-alternative_names = "*.alexander77.co.uk"
+domain_name       = "alexander77063.co.uk"
+alternative_names = "*.alexander77063.co.uk"
 
 # s3 variables
 env_file_bucket_name = "an-rentzone-app-env-file-bucket"
@@ -31,7 +31,7 @@ env_file_name        = "env-variables-file.env"
 
 # ecs variables
 architecture = "X86_64"
-image_name   = "rentzone-app"
+image_name   = "rentzone"
 image_tag    = "latest"
 
 # route-53 variables
