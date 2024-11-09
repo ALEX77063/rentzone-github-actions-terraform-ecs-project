@@ -40,7 +40,7 @@ jobs:
 
       - name: Run Terraform initialize
         working-directory: ./iac
-        run: terrform init
+        run: terraform init
 
       - name: Run Terraform apply/destroy
         working-directory: ./iac
