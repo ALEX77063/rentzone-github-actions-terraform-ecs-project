@@ -113,9 +113,6 @@ RUN  sed -i "/^DB_USERNAME=/ s/=.*$/=$RDS_DB_USERNAME/" .env
 # Use the sed command to search the .env file for a line that starts with DB_PASSWORD= and replace everything after the = character
 RUN  sed -i "/^DB_PASSWORD=/ s/=.*$/=$RDS_DB_PASSWORD/" .env
 
-# Print the .env file to review values
-RUN cat .env
-
 # Copy the file, AppServiceProvider.php from the host file system into the container at the path app/Providers/AppServiceProvider.php
 COPY AppServiceProvider.php app/Providers/AppServiceProvider.php
 
